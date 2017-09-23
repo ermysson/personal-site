@@ -1,0 +1,137 @@
+@import url(font/font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: black;
+    color: aqua;
+}
+
+::-moz-selection {
+    background: black;
+    color: aqua;
+}
+
+a {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    font-family: 'Vision', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background: #ffffff;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+body.s1 {
+  background: #ffffff;
+}
+body.s2 {
+  background: #007eff;
+}
+body.s3 {
+  background: #FFF;
+}
+
+header {
+    padding: 90px 0 180px 0;
+}
+
+.logotipo {
+    text-align: center;
+}
+
+main {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.apresentacao {
+    font-family: 'VisionBold', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #007eff;
+}
+
+#saudacao {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+#meunome {
+    color: black;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#minhafuncao {
+    font-size: 24px;
+    line-height: normal;
+}
+
+.frase {
+    padding: 300px 40px;
+    color: white;
+}
+
+.frase-bonita {
+    width: 50%;
+    font-family: 'Vision', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.frase-dono {
+    font-family: 'Vision', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.projetos {
+    padding: 200px 40px;
+    color: #007eff;
+}
+
+.titulo {
+font-family: 'VisionThin';
+    font-size: 60px;
+    margin-bottom: 120px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #007eff;
+    font-weight: 100;
+}
+
+footer {
+    padding: 40px;
+    background: #EAEAEA;
+    color: #007eff;
+}
+
+.link-rodape {
+    padding: 0 10px;
+    font-family: 'Vision', monospace;
+    display: inline;
+    color: #007eff;
+}
+
+.link-rodape a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Vision', monospace;
+    color: #007eff;
+}
+
+.link-rodape a:hover {
+    color: #000eff;
+}
