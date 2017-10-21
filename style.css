@@ -157,6 +157,17 @@ main {
     line-height: normal;
 }
 
+@media (max-width: 667px) {
+    #saudacao, #meunome {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    
+    #minhafuncao {
+        font-size: 18px;
+    }
+}
+
 .frase {
     padding: 300px 40px;
     color: white;
