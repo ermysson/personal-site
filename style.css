@@ -262,10 +262,18 @@ font-family: 'VisionThin';
 }
 
 footer {
-    padding: 40px;
+    padding: 40px 40px;
     background: #EAEAEA;
     color: #007eff;
     display: block;
+}
+
+@media (min-width: 667px) {
+    
+    footer {
+        padding: 40px 10px;
+    }
+    
 }
 
 .link-rodape {
